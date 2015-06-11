@@ -16,7 +16,10 @@ x = 0
 if (size == 1):
 	print lower[int(number)]
 
-elif (size == 2 and number[0] == '1'):
+elif (size == 2 and number[0] == '1' and number == '11' or number == '12'):
+	print lower[int(number)]
+
+elif (size == 2 and number[0] == '1' and number != '11' or '12'):
 	print teens[int(number)]
 
 elif (size == 2):
