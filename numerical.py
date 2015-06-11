@@ -17,10 +17,7 @@ if (size == 1):
 	print lower[int(number)]
 
 elif (size == 2 and number[0] == '1'):
-	if ('11' or '12' in (number)):
-		print lower[int(number)]
-	else:
-		print teens[int(number)]
+	print teens[int(number)]
 
 elif (size == 2):
 	print upper[int(number[0])] + ' ' + lower[int(number[1])]
